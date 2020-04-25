@@ -1,6 +1,6 @@
 # Description
 
-Idea is to create a Master Writer/Slave Receiver configuration which
+The idea is to create a Master Writer/Slave Receiver configuration which
 will allow each individually programmable LED strip to synchronize to the beat of music
 playing via a speaker while reducing any noise in the environment. 
 The Master Writer/Slave Receiver configuration via the i2c protocol will be connected to a
