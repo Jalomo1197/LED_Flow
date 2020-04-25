@@ -62,6 +62,7 @@ NOTE: This is a new board
       Black wires: Ground connection
       Green wires: A5 connection
       Purple wires: A4 connection
+      ![](images/imageOne)
 
 ## Arduino in charge of lighting the LED strip/strips (MASTER)
 This arduino lights the led strip accordingly; based on the Mode and Amount data it
