@@ -95,7 +95,7 @@ an update, the arduino simply sends the mode (int) via Request() function. The c
 debounce safe (no false reads from button). The wire connections to support this
 functionality is shown below.
 
-      ![](images/ImageFour)
+      ![](images/ImageFour.png)
 
 
 # References
