@@ -62,7 +62,7 @@ NOTE: This is a new board
       Black wires: Ground connection
       Green wires: A5 connection
       Purple wires: A4 connection
-      ![](images/imageOne)
+      ![](images/ImageOne.png)
 
 ## Arduino in charge of lighting the LED strip/strips (MASTER)
 This arduino lights the led strip accordingly; based on the Mode and Amount data it
@@ -74,6 +74,7 @@ this functionality is shown below.
 NOTE: These wires will connection to the LED strip. All led strips have three
       connections; one for ground, one for data (I choose pin 5 for data 
       transfer to led), one for 5v.
+      ![](images/ImageTwo.png)
 
 ## Arduino in charge of the reading vibrations values (SERVANT #9)
 This arduino simply takes data from the vibration sensor and converts it into the amount
@@ -85,6 +86,7 @@ NOTE: Due to limitations, the vibration sensor in the diagram does not exactly r
       the piezo vibration sensor. The piezo vibration sensor has an additional connection
       (green wire). The addition connection is for analog reads from the sensor. (picture
       shows a vibration monitor not a piezo sensor)
+      ![](images/ImageThree.png)
 
 ## Arduino in charge of the led system mode (SERVANT #8)
 This arduino keeps track of which mode the user has selected. This arduino
@@ -92,6 +94,8 @@ also displays the current mode on a 2x16 LCD. When ever the master arduino reque
 an update, the arduino simply sends the mode (int) via Request() function. The code is
 debounce safe (no false reads from button). The wire connections to support this
 functionality is shown below.
+
+      ![](images/ImageFour)
 
 
 # References
